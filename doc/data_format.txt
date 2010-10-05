@@ -1,0 +1,16 @@
+1. Authentication:
+
+Request:
+{
+	"command": "authenticate",
+	"params": {
+		"username": "some name",
+		"password": "some password",
+	}
+}
+
+Response:
+{
+	"error_code": "OK",
+	"error_message": "Authentication success"
+}
